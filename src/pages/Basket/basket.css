@@ -1,0 +1,361 @@
+
+.conteiner_basket{
+    position: absolute;
+    width: 1440px;
+    height: 1395px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+.cart{
+    position: absolute;
+    width: 84px;
+    height: 40px;
+    left: 100px;
+    top: 160px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #1D1F22;
+}
+.restangle_35{
+    position: absolute;
+    width: 1240px;
+    height: 1px;
+    left: 100px;
+    top: 259px;
+    background: #E5E5E5
+}
+.items_basket{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+   
+}
+.group_1{
+    display: flex;
+    position: relative;
+    width: 1240px;
+    height: 288px;
+    left: 100px;
+    top: 280px;
+    margin-bottom: 20px;
+}
+.group_2{
+    position: absolute;
+    width: 269px;
+    height: 288px;
+    left: 971px;
+    top: 0px;
+    
+}
+.group_product{
+    position: absolute;
+    height: 288px;
+    width: 500px;
+}
+.product_name{
+    position: absolute;
+    width: 292px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 27px;
+    display: flex;
+    /*align-items: center;*/
+    color: #1D1F22;
+}
+.price{
+    position: absolute;
+    width: 86px;
+    height: 46px;
+    left: 0px;
+    top: 82px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #1D1F22;
+}
+.size_1{
+    position: absolute;
+    width: 63px;
+    height: 45px;
+    left: 0px;
+    top: 159px;
+    border: 1px solid #1D1F22;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.size_1 button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 63px;
+    height: 45px;
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 1px solid #1D1F22;
+}
+.size_2{
+    position: absolute;
+    width: 63px;
+    height: 45px;
+    left: 71px;
+    top: 159px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #1D1F22;
+    box-sizing: border-box;
+}
+.size_2 button{
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    width: 63px;
+    height: 45px;
+    color:#FFFFFF;
+    background: #1D1F22;
+    border: 1px solid #1D1F22;
+}
+.size_3{
+    position: absolute;
+    width: 63px;
+    height: 45px;
+/* Inside auto layout */
+    left: 142px;
+    top: 159px;
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+.size_3 button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 63px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #1D1F22;
+    cursor: pointer;
+}
+.size_4{
+    position: absolute;
+    width: 63px;
+    height: 45px;
+    top: 159px;
+    left: 213px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.size_4 button{
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    width: 63px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #1D1F22;
+}
+.size_basket{
+   position: absolute;
+   width: 38px;
+   height: 18px;
+   top: 134px;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 18px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   color: #1D1F22;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.color_basket_0{
+   box-sizing: border-box;
+   position: absolute;
+   width: 36px;
+   height: 36px;
+   left: 0px;
+   bottom: 0px;
+   border: 1px solid #5ECE7B;
+}
+.color_basket_0 button{
+   position: absolute;
+   width: 32px;
+   height: 32px;
+   left: 1px;
+   top: 1px;
+   background: #D3D2D5;
+   border: 0px solid #5ECE7B;
+   cursor: pointer;
+}
+.color_basket_1{
+   position: absolute;
+   width: 32px;
+   height: 32px;
+   bottom: 2px;
+   left: 44px;
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+.color_basket_1 button{
+   position: absolute;
+   width: 32px;
+   height: 32px;
+   left: 0px;
+   bottom: 0px;
+   background: #2B2B2B;
+   cursor: pointer;
+}
+.color_basket_2{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    bottom: 2px;
+    left: 84px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.color_basket_2 button{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 0px;
+    bottom: 0px;
+    background: #0F6450;
+    cursor: pointer;
+}
+.color_basket{
+    position: absolute;
+    width: 55px;
+    height: 18px;
+    bottom: 42px;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1D1F22;
+ 
+}
+.img{
+   float: right;
+   position: static;
+   height: 288px;
+   width: 200px;
+   border-radius: 0px;
+
+}
+.add_product{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #1D1F22;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.remove_product{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 0px;
+    bottom: 0px;
+    border: 1px solid #1D1F22;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.counter_basket{
+    position: absolute;
+    left: 15px;
+    top: 47.79%;
+    bottom: 47.65%;
+    font-size: 24px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1D1F22;
+}
+.slide_gallary{
+    position: absolute;
+    left: 70px;
+    top: 45%;
+    border: 2px solid wheat;
+    background-color: antiquewhite;
+}
+.group_total_tax_quantity{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 279px;
+    height: 159px;
+    left: 100px;
+    top: 962px;
+}
+.order{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    bottom: 0px;
+    width: 279px;
+    height: 43px;
+    background: #5ECE7B;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.group_total_tax_quantity ul{
+    position: absolute;
+    width: 198px;
+    height: 100px;
+    left: 0px;
+    margin-block-start: 0px;
+    padding-inline-start: 0px;
+    display: block;
+        
+}
+.group_total_tax_quantity   li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+    width: 184px;
+    height: 28px;
+}
+.group_total_tax_quantity   div {
+    flex: 1;
+    height: 1px;
+    border-bottom: 2px dashed #dfdfdf;
+    position: relative;
+    top: 15px;
+            
+}
+        
+    

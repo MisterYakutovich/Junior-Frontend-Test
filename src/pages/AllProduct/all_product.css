@@ -1,0 +1,145 @@
+
+.conteiner{
+    position: absolute;
+    width: 1440px;
+    height: 2015px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+
+.content_grid {
+    position: absolute;
+    width: 1440px;
+    height: 1935px;
+    left: 0px;
+    top: 78px;
+    background: #FFFFFF;
+    display: grid;
+        
+   }
+
+.content_grid1 {
+    position: absolute;
+    width: 1340px;
+    height: 1435px;
+    left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,384px);
+    grid-template-rows: 444px 444px 444px;
+    grid-gap:119px 40px;
+    
+ 
+}
+
+.title{
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 160%;    
+    display: flex;
+    align-items: center;
+    color: #1D1F22;
+    height: 68px;
+    width: 299px;
+    top: 80px;
+    border-radius: nullpx;
+
+   }
+
+.title_h{
+    
+    font-family: Raleway;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 67px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.content_grid1 >div.card {
+     
+    height: 444px;
+    width: 386px;
+    margin-top: 251px;
+    flex-direction: column;
+    align-items: flex-start;
+    bottom: 738px;
+    background: #FFFFFF;
+    transition: all 0.5s ease;
+
+}
+.content_grid1 >div.card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.5);
+}
+
+.card_img{
+    position: static;
+    height: 330px;
+    width: 354px;
+    left: 16px;
+    top: 16px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 16px 16px 16px;
+    
+   }
+.empty_basket{
+    fill: darkgreen;
+   }
+.add_to_cart{
+    position: relative;
+    width: 52px;
+    height: 52px;
+    left: 303px;
+    bottom: 45px;
+    cursor: pointer;
+
+}
+
+.product_list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    width: 354px;
+    height: 58px;
+    left: 16px;
+    top: -54px;
+    
+}
+h2{
+    height: 29px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 160%;
+    display: contents;
+    align-items: center;
+    color: #1D1F22;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+ b{
+    
+  font-style: normal;
+  font-size: 18px;
+  line-height: 170%; 
+}
+    
+	
+	
+
+   

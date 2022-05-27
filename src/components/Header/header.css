@@ -1,0 +1,234 @@
+.header{
+    position: absolute;
+    left: 0%;
+    right:0%;
+    top:0%;
+    bottom: 0%;
+    
+    width: 1440px;
+    height: 80px;
+    
+}
+.header_list{
+    position: absolute;
+    height: 20px;
+    left: 117px;
+    right: 0%;
+    top: 0px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #5ECE7B;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 30px 
+    
+}
+.header_list1{
+    position: absolute;
+    height: 20px;
+    left: 214px;
+    right: 0%;
+    top: 0px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1D1F22;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 30px 
+        
+    }
+.header_list2{
+    position: absolute;
+    height: 20px;
+    left: 283px;
+    right: 0%;
+    top: 0px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1D1F22;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 30px
+    }
+.container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0%;
+    position: static;
+    width: 234;
+    height: 56;
+    left: 0%;
+    bottom: 0%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    }
+.container2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:0px 0px 0px 10px;
+    position: static;
+    width: 97px;
+    height: 56px;
+    bottom: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    position: static;
+    width: 69px;
+    height: 56px;
+    left: 97px;
+    bottom: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    position: static;
+    width: 68px;
+    height: 56px;
+    left: 166px;
+    bottom: 0px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.hr  {
+    display: flex; 
+    align-items: center;
+    list-style: none;
+    text-decoration: none;   
+   }
+.header_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 204px;
+    height: 40px;
+    right: 101px;
+    top: 23px;    
+   }
+.header_menu_basket { 
+    
+    position: static;
+    width: 20px;
+    height: 20px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    cursor: pointer;  
+     
+   } 
+.header_menu_basket :hover{
+    transform: scale(1.2);  
+       
+   }
+.header_menu_currency{
+    position: static;
+    width: 38px;
+    height: 29px;
+    left: 124px;
+    top: 5.5px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 22px;
+    
+
+   }
+   .header_menu_currency_switch{
+    position: static;
+    width: 12px;
+    height: 29px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    flex: none;
+    flex-grow: 0;   
+   }
+.header_menu_vector{
+    position: absolute;
+    left: 76.47%;
+    right: 20.59%;
+    top: 25%;
+    bottom: 38.75%;
+    cursor: pointer;
+    
+   }
+.total_index{
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 198px;
+   top: 3px;
+   border-radius: 60px;
+   background: #1D1F22;
+
+   }
+.total_index_number{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    bottom: 50%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+   }

@@ -1,0 +1,18 @@
+.slider {
+    position: relative;
+    
+    height: 288px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+ 
+.slider-img {
+    position: absolute;
+    width: 200px;
+    height: 288px;
+    transition: all 0.2s;
+}
+ 
